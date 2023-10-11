@@ -422,9 +422,15 @@ int adc_board_init (const char *i2c_dev_node)
     int fd;
 
     if ((fd = i2c_open(i2c_dev_node)) < 0)
-        return   0;
+        return 0;
 
-    return check_devices (fd) ? fd : 0;
+    if (check_devices (fd))
+        return fd;
+
+    printf ("Can not found adc board. i2c_dev = %s\n", i2c_dev_node);
+    close (fd);
+
+    return -1;
 }
 
 //------------------------------------------------------------------------------
