@@ -1,0 +1,3 @@
+[submodule "lib_i2c"]
+	path = lib_i2c
+	url = https://github.com/charles-park/lib_i2c
