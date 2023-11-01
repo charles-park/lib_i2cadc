@@ -177,74 +177,74 @@ const struct pin_info HEADER_P13[] = {
 
 const struct pin_info HEADER_P1_1[] = {
     { "P1_1.0", 0, NOT_USED , 0},   // Header Pin 0
-    { "P1_1.1", 1, CHIP_ADC0, 0},   // Header Pin 1 Info
-    { "P1_1.2", 2, CHIP_ADC0, 1},   // Header Pin 2 Info
-    { "P1_1.3", 3, CHIP_ADC0, 2},
-    { "P1_1.4", 4, CHIP_ADC0, 3},
-    { "P1_1.5", 5, CHIP_ADC0, 4},
-    { "P1_1.6", 6, CHIP_ADC0, 5},
-    { "P1_1.7", 7, CHIP_ADC0, 6},
-    { "P1_1.8", 8, CHIP_ADC0, 7},
+    { "P1_1.1", 1, CHIP_ADC0, 7},   // Header Pin 1 Info
+    { "P1_1.2", 2, CHIP_ADC0, 6},   // Header Pin 2 Info
+    { "P1_1.3", 3, CHIP_ADC0, 5},
+    { "P1_1.4", 4, CHIP_ADC0, 4},
+    { "P1_1.5", 5, CHIP_ADC0, 3},
+    { "P1_1.6", 6, CHIP_ADC0, 2},
+    { "P1_1.7", 7, CHIP_ADC0, 1},
+    { "P1_1.8", 8, CHIP_ADC0, 0},
 };
 
 const struct pin_info HEADER_P1_2[] = {
     { "P1_2.0", 0, NOT_USED , 0},   // Header Pin 0
-    { "P1_2.1", 1, CHIP_ADC1, 0},   // Header Pin 1 Info
-    { "P1_2.2", 2, CHIP_ADC1, 1},   // Header Pin 2 Info
-    { "P1_2.3", 3, CHIP_ADC1, 2},
-    { "P1_2.4", 4, CHIP_ADC1, 3},
-    { "P1_2.5", 5, CHIP_ADC1, 4},
-    { "P1_2.6", 6, CHIP_ADC1, 5},
-    { "P1_2.7", 7, CHIP_ADC1, 6},
-    { "P1_2.8", 8, CHIP_ADC1, 7},
+    { "P1_2.1", 1, CHIP_ADC1, 7},   // Header Pin 1 Info
+    { "P1_2.2", 2, CHIP_ADC1, 6},   // Header Pin 2 Info
+    { "P1_2.3", 3, CHIP_ADC1, 5},
+    { "P1_2.4", 4, CHIP_ADC1, 4},
+    { "P1_2.5", 5, CHIP_ADC1, 3},
+    { "P1_2.6", 6, CHIP_ADC1, 2},
+    { "P1_2.7", 7, CHIP_ADC1, 1},
+    { "P1_2.8", 8, CHIP_ADC1, 0},
 };
 
 const struct pin_info HEADER_P1_3[] = {
     { "P1_3.0", 0, NOT_USED , 0},   // Header Pin 0
-    { "P1_3.1", 1, CHIP_ADC2, 0},   // Header Pin 1 Info
-    { "P1_3.2", 2, CHIP_ADC2, 1},   // Header Pin 2 Info
-    { "P1_3.3", 3, CHIP_ADC2, 2},
-    { "P1_3.4", 4, CHIP_ADC2, 3},
-    { "P1_3.5", 5, CHIP_ADC2, 4},
-    { "P1_3.6", 6, CHIP_ADC2, 5},
-    { "P1_3.7", 7, CHIP_ADC2, 6},
-    { "P1_3.8", 8, CHIP_ADC2, 7},
+    { "P1_3.1", 1, CHIP_ADC2, 7},   // Header Pin 1 Info
+    { "P1_3.2", 2, CHIP_ADC2, 6},   // Header Pin 2 Info
+    { "P1_3.3", 3, CHIP_ADC2, 5},
+    { "P1_3.4", 4, CHIP_ADC2, 4},
+    { "P1_3.5", 5, CHIP_ADC2, 3},
+    { "P1_3.6", 6, CHIP_ADC2, 2},
+    { "P1_3.7", 7, CHIP_ADC2, 1},
+    { "P1_3.8", 8, CHIP_ADC2, 0},
 };
 
 const struct pin_info HEADER_P1_4[] = {
     { "P1_4.0", 0, NOT_USED , 0},   // Header Pin 0
-    { "P1_4.1", 1, CHIP_ADC3, 0},   // Header Pin 1 Info
-    { "P1_4.2", 2, CHIP_ADC3, 1},   // Header Pin 2 Info
-    { "P1_4.3", 3, CHIP_ADC3, 2},
-    { "P1_4.4", 4, CHIP_ADC3, 3},
-    { "P1_4.5", 5, CHIP_ADC3, 4},
-    { "P1_4.6", 6, CHIP_ADC3, 5},
-    { "P1_4.7", 7, CHIP_ADC3, 6},
-    { "P1_4.8", 8, CHIP_ADC3, 7},
+    { "P1_4.1", 1, CHIP_ADC3, 7},   // Header Pin 1 Info
+    { "P1_4.2", 2, CHIP_ADC3, 6},   // Header Pin 2 Info
+    { "P1_4.3", 3, CHIP_ADC3, 5},
+    { "P1_4.4", 4, CHIP_ADC3, 4},
+    { "P1_4.5", 5, CHIP_ADC3, 3},
+    { "P1_4.6", 6, CHIP_ADC3, 2},
+    { "P1_4.7", 7, CHIP_ADC3, 1},
+    { "P1_4.8", 8, CHIP_ADC3, 0},
 };
 
 const struct pin_info HEADER_P1_5[] = {
     { "P1_5.0", 0, NOT_USED , 0},   // Header Pin 0
-    { "P1_5.1", 1, CHIP_ADC4, 0},   // Header Pin 1 Info
-    { "P1_5.2", 2, CHIP_ADC4, 1},   // Header Pin 2 Info
-    { "P1_5.3", 3, CHIP_ADC4, 2},
-    { "P1_5.4", 4, CHIP_ADC4, 3},
-    { "P1_5.5", 5, CHIP_ADC4, 4},
-    { "P1_5.6", 6, CHIP_ADC4, 5},
-    { "P1_5.7", 7, CHIP_ADC4, 6},
-    { "P1_5.8", 8, CHIP_ADC4, 7},
+    { "P1_5.1", 1, CHIP_ADC4, 7},   // Header Pin 1 Info
+    { "P1_5.2", 2, CHIP_ADC4, 6},   // Header Pin 2 Info
+    { "P1_5.3", 3, CHIP_ADC4, 5},
+    { "P1_5.4", 4, CHIP_ADC4, 4},
+    { "P1_5.5", 5, CHIP_ADC4, 3},
+    { "P1_5.6", 6, CHIP_ADC4, 2},
+    { "P1_5.7", 7, CHIP_ADC4, 1},
+    { "P1_5.8", 8, CHIP_ADC4, 0},
 };
 
 const struct pin_info HEADER_P1_6[] = {
     { "P1_6.0", 0, NOT_USED , 0},   // Header Pin 0
-    { "P1_6.1", 1, CHIP_ADC5, 0},   // Header Pin 1 Info
-    { "P1_6.2", 2, CHIP_ADC5, 1},   // Header Pin 2 Info
-    { "P1_6.3", 3, CHIP_ADC5, 2},
-    { "P1_6.4", 4, CHIP_ADC5, 3},
-    { "P1_6.5", 5, CHIP_ADC5, 4},
-    { "P1_6.6", 6, CHIP_ADC5, 5},
-    { "P1_6.7", 7, CHIP_ADC5, 6},
-    { "P1_6.8", 8, CHIP_ADC5, 7},
+    { "P1_6.1", 1, CHIP_ADC5, 7},   // Header Pin 1 Info
+    { "P1_6.2", 2, CHIP_ADC5, 6},   // Header Pin 2 Info
+    { "P1_6.3", 3, CHIP_ADC5, 5},
+    { "P1_6.4", 4, CHIP_ADC5, 4},
+    { "P1_6.5", 5, CHIP_ADC5, 3},
+    { "P1_6.6", 6, CHIP_ADC5, 2},
+    { "P1_6.7", 7, CHIP_ADC5, 1},
+    { "P1_6.8", 8, CHIP_ADC5, 0},
 };
 
 #define	ARRARY_SIZE(x)	(sizeof(x) / sizeof(x[0]))
